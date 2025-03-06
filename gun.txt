@@ -5,4 +5,6 @@ mp40
 ump
 awm
 m134 minigum
+GRANIDE
+LANDMINE
 
