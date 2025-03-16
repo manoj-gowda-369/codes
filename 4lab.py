@@ -1,3 +1,3 @@
 name=input("what is your name ?")
-color=input("favourite color :")
-print(name + " likes  " +color)
+food=input("favourite food :")
+print(name + " likes  " +food)
