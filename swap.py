@@ -6,4 +6,4 @@ def fibonacci(n):
 
 num = int(input("Enter the number of terms: "))
 print("Fibonacci Series:", fibonacci(num))
-print(manoj)
+print("manoj")
