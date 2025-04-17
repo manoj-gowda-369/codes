@@ -53,8 +53,8 @@ def gameLoop():
     game_close = False
 
     # Initial snake position
-    x1 = width / 2
-    y1 = height / 2
+    x1 = width / 3
+    y1 = height / 3
 
     # Initial movement direction
     x1_change = 0
