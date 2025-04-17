@@ -1,4 +1,4 @@
-import pygame
+import ipygame
 import time
 import random
 
@@ -14,8 +14,8 @@ green = (0, 255, 0)
 blue = (50, 153, 213)
 
 # Set display dimensions
-width = 600
-height = 400
+width = 700
+height = 500
 
 # Create game window
 dis = pygame.display.set_mode((width, height))
