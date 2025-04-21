@@ -1,12 +1,12 @@
-# Conversion rate (you can update this as per current rate)
-INR_TO_USD = 0.012  # Example: 1 INR = 0.012 USD
+# Conversion rate (update as needed)
+INR_TO_EUR = 0.011  # Example: 1 INR = 0.011 EUR
 
 # Get amount in rupees from user
 rupees = float(input("Enter amount in Rupees: ₹ "))
 
-# Convert to dollars
-dollars = rupees * INR_TO_USD
+# Convert to euros
+euros = rupees * INR_TO_EUR
 
 # Show result
-print(f"${dollars:.2f} USD")
+print(f"€{euros:.2f} EUR")
 
