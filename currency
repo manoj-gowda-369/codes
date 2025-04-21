@@ -1,12 +1,29 @@
-# Conversion rate (update as needed)
-INR_TO_EUR = 0.011  # Example: 1 INR = 0.011 EUR
+# Exchange rates (example, can be updated)
+rates = {
+    "USD": 0.012,    # US Dollar
+    "EUR": 0.011,    # Euro
+    "GBP": 0.0096,   # British Pound
+    "JPY": 1.83,     # Japanese Yen
+    "AED": 0.044,    # UAE Dirham
+    "AUD": 0.018,    # Australian Dollar
+}
 
-# Get amount in rupees from user
-rupees = float(input("Enter amount in Rupees: ₹ "))
+# Show options
+print("Convert INR to:")
+for code in rates:
+    print(f" - {code}")
 
-# Convert to euros
-euros = rupees * INR_TO_EUR
+# Get user choice
+currency = input("Enter currency code (e.g., USD, EUR): ").upper()
 
-# Show result
-print(f"€{euros:.2f} EUR")
+# Check if currency exists
+if currency in rates:
+    rupees = float(input("Enter amount in Rupees: ₹ "))
+    converted = rupees * rates[currency]
+    symbol = "₹" if currency == "INR" else {
+        "USD": "$", "EUR": "€", "GBP": "£", "JPY": "¥", "AED": "د.إ", "AUD": "A$"
+    }.get(currency, "")
+    print(f"{symbol}{converted:.2f} {currency}")
+else:
+    print("Sorry, unsupported currency code.")
 
