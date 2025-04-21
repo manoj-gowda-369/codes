@@ -1,11 +1,11 @@
 # Exchange rates (example, can be updated)
 rates = {
-    "USD": 0.012,    # US Dollar
-    "EUR": 0.011,    # Euro
-    "GBP": 0.0096,   # British Pound
-    "JPY": 1.83,     # Japanese Yen
-    "AED": 0.044,    # UAE Dirham
-    "AUD": 0.018,    # Australian Dollar
+    "USD": 0.012,
+    "EUR": 0.011,
+    "GBP": 0.0096,
+    "JPY": 1.83,
+    "AED": 0.044,
+    "AUD": 0.018,
 }
 
 # Show options
@@ -19,11 +19,16 @@ currency = input("Enter currency code (e.g., USD, EUR): ").upper()
 # Check if currency exists
 if currency in rates:
     rupees = float(input("Enter amount in Rupees: ₹ "))
-    converted = rupees * rates[currency]
-    symbol = "₹" if currency == "INR" else {
+    rate = rates[currency]
+    converted = rupees * rate
+    symbol = {
         "USD": "$", "EUR": "€", "GBP": "£", "JPY": "¥", "AED": "د.إ", "AUD": "A$"
     }.get(currency, "")
+    
     print(f"{symbol}{converted:.2f} {currency}")
+    
+    # 🔥 New feature: Show ₹1 equivalent
+    print(f"1 INR = {symbol}{rate:.4f} {currency}")
 else:
     print("Sorry, unsupported currency code.")
 
