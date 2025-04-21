@@ -1,0 +1,12 @@
+# Conversion rate (you can update this as per current rate)
+INR_TO_USD = 0.012  # Example: 1 INR = 0.012 USD
+
+# Get amount in rupees from user
+rupees = float(input("Enter amount in Rupees: ₹ "))
+
+# Convert to dollars
+dollars = rupees * INR_TO_USD
+
+# Show result
+print(f"${dollars:.2f} USD")
+
