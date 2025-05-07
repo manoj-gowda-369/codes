@@ -10,3 +10,9 @@ def push():
     else:
         item = stack.pop()
         print(f"Popped item: {item}")
+
+        def peek():
+    if not stack:
+        print("Stack is empty. Nothing to peek.")
+    else:
+        print(f"Top of the stack: {stack[-1]}")
