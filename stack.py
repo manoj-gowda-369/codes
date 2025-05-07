@@ -21,3 +21,12 @@ def push():
         print("Stack is empty.")
     else:
         print("Stack is not empty.")
+
+        def display():
+    if not stack:
+        print("Stack is empty.")
+    else:
+        print("Stack elements (bottom to top):")
+        for item in stack:
+            print(item)
+
