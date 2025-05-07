@@ -37,3 +37,21 @@ while True:
     print("4. Check if Stack is Empty")
     print("5. Display Stack")
     print("6. Exit")
+
+    choice = input("Enter your choice (1-6): ")
+
+    if choice == '1':
+        push()
+    elif choice == '2':
+        pop()
+    elif choice == '3':
+        peek()
+    elif choice == '4':
+        is_empty()
+    elif choice == '5':
+        display()
+    elif choice == '6':
+        print("Exiting program.")
+        break
+    else:
+        print("Invalid choice. Please enter a number from 1 to 6.")
