@@ -29,4 +29,11 @@ def push():
         print("Stack elements (bottom to top):")
         for item in stack:
             print(item)
-
+while True:
+    print("\nStack Menu:")
+    print("1. Push")
+    print("2. Pop")
+    print("3. Peek")
+    print("4. Check if Stack is Empty")
+    print("5. Display Stack")
+    print("6. Exit")
