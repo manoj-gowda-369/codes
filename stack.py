@@ -16,3 +16,8 @@ def push():
         print("Stack is empty. Nothing to peek.")
     else:
         print(f"Top of the stack: {stack[-1]}")
+        def is_empty():
+    if not stack:
+        print("Stack is empty.")
+    else:
+        print("Stack is not empty.")
