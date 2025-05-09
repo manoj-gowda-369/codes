@@ -8,4 +8,4 @@ if num % 2 == 0:
      else:
     print(f"{num} is odd.")
 
-    print("Thanks for using the program!")
+    print("Thanks for using my the program!")
