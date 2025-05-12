@@ -3,4 +3,4 @@ USE MOVIES;
 show databases;
 
 CREATE TABLE ACTOR(
-
+   ACT_ID INT PRIMARY KEY,
