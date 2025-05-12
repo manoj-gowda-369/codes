@@ -4,3 +4,4 @@ show databases;
 
 CREATE TABLE ACTOR(
    ACT_ID INT PRIMARY KEY,
+   ACT_NAME VARCHAR(20),
