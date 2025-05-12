@@ -1,2 +1,4 @@
 CREATE DATABASE MOVIES; 
+USE MOVIES;
+show databases;
 
