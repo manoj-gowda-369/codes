@@ -12,4 +12,5 @@ if det_A != 0:
     A_inv = np.linalg.inv(A)
  print("\nInverse of A:\n", A_inv)
  identity_check = np.dot(A, A_inv)
+ print("\nA * A_inv (should be Identity):\n", identity_check)
 
