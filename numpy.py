@@ -14,4 +14,4 @@ if det_A != 0:
  identity_check = np.dot(A, A_inv)
  print("\nA * A_inv (should be Identity):\n", identity_check)
 else:
-
+print("Matrix is not invertible (determinant is zero).")
