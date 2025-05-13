@@ -7,4 +7,5 @@ import numpy as np
 
 ])
 det_A = np.linalg.det(A)
+print("Determinant of A:", det_A)
 
