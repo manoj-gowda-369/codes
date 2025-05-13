@@ -5,4 +5,6 @@ import numpy as np
     [1, 0, 2],
     [4, 1, 8]
 
+])
+det_A = np.linalg.det(A)
 
