@@ -11,4 +11,5 @@ print("Determinant of A:", det_A)
 if det_A != 0:
     A_inv = np.linalg.inv(A)
  print("\nInverse of A:\n", A_inv)
+ identity_check = np.dot(A, A_inv)
 
