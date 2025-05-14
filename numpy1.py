@@ -9,4 +9,5 @@ import numpy as np
  print("Eigenvalues:")
 for i, val in enumerate(eigenvalues):
     print(f"λ{i+1} =", val)
+  print("\nEigenvectors (each column corresponds to an eigenvalue):")
 
