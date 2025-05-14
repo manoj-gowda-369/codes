@@ -6,4 +6,5 @@ import numpy as np
 ])
   
  eigenvalues, eigenvectors = np.linalg.eig(A)
+ print("Eigenvalues:")
 
