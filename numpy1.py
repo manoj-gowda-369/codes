@@ -4,4 +4,6 @@ import numpy as np
     [1, 0, 2],
     [4, 1, 8]
 ])
+  
+ eigenvalues, eigenvectors = np.linalg.eig(A)
 
