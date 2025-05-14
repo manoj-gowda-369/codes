@@ -11,4 +11,4 @@ for i, val in enumerate(eigenvalues):
     print(f"λ{i+1} =", val)
   print("\nEigenvectors (each column corresponds to an eigenvalue):")
   for i in range(len(eigenvectors)):
-
+ print(f"v{i+1} =", eigenvectors[:, i])
