@@ -8,4 +8,5 @@ import numpy as np
  eigenvalues, eigenvectors = np.linalg.eig(A)
  print("Eigenvalues:")
 for i, val in enumerate(eigenvalues):
+    print(f"λ{i+1} =", val)
 
