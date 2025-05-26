@@ -6,3 +6,8 @@ print("\n== POWER & LOGARITHMS ==")
 print("pow(2, 3):", math.pow(2, 3))
 print("sqrt(16):", math.sqrt(16))
 print("exp(2):", math.exp(2))
+
+# === TRIGONOMETRY ===
+print("\n== TRIGONOMETRY ==")
+print("sin(pi/2):", math.sin(math.pi / 2))
+print("cos(0):", math.cos(0))
