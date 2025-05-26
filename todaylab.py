@@ -11,3 +11,9 @@ print("exp(2):", math.exp(2))
 print("\n== TRIGONOMETRY ==")
 print("sin(pi/2):", math.sin(math.pi / 2))
 print("cos(0):", math.cos(0))
+
+# === HYPERBOLIC FUNCTIONS ===
+print("\n== HYPERBOLIC FUNCTIONS ==")
+print("sinh(1):", math.sinh(1))
+print("cosh(1):", math.cosh(1))
+print("tanh(1):", math.tanh(1))
